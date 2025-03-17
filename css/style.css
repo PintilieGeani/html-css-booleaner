@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 /* Utils */
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 /* Header */
 .bg-logo{
     height: 150px;
