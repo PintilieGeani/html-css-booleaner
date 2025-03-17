@@ -27,6 +27,8 @@
 }
 address{
     font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .author{
     font-size: 20px;
@@ -39,4 +41,15 @@ address{
 a{
     text-decoration: none;
     color: rgb(43, 198, 250);
+}
+figcaption{
+    font-size: 12px;
+}
+
+/* Paragrafo e lista */
+.main-paragraph{
+    margin: 10px 0px;
+}
+ul{
+    list-style: circle;
 }
