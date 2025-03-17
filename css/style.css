@@ -1,8 +1,6 @@
 /* CSS Reset */
 *{
-    padding: 0px;
     box-sizing: border-box;
-    margin: 0;
 }
 /* Header */
 .bg-logo{
@@ -73,11 +71,29 @@ thead{
 
 /* Potrebbero interessarti */
 .info-title{
-    
+color: rgb(128, 128, 128);
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.info-photo-title{
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
 }
 #monitor{
-    height: 250px;
-    width: 250px;
+    height: 140px;
     background-image: url(../img/monitor.jpg);
-    display: block;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+    margin-top: 0px;
+}
+#graph{
+    height: 140px;
+    background-image: url(../img/graph.jpg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+    margin-top: 0px;
 }
