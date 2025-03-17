@@ -1,0 +1,42 @@
+/* CSS Reset */
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header */
+.bg-logo{
+    height: 150px;
+    background-color: rgb(43, 198, 250);
+    background-image: url(../img/pattern.png);
+    background-size: 35%;
+    line-height: 150px;
+
+}
+
+#logo{
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Main */
+.main-title{
+    font-size: 35px;
+}
+address{
+    font-style: normal;
+}
+.author{
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+}
+.data{
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+a{
+    text-decoration: none;
+    color: rgb(43, 198, 250);
+}
