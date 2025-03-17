@@ -53,3 +53,18 @@ figcaption{
 ul{
     list-style: circle;
 }
+
+/* Table */
+table{
+border-collapse: collapse;
+margin: 20px 0px;
+}
+thead{
+    background-color:rgb(43, 198, 250);
+}
+.row-blue{
+    background-color: lightblue;
+}
+.table-sizing{
+    width: 50%;
+}
